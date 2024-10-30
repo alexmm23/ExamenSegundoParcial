@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etModelo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Modelo" />
+
+    <EditText
+        android:id="@+id/etColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Color" />
+
+    <EditText
+        android:id="@+id/etTamaño"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tamaño" />
+
+    <EditText
+        android:id="@+id/etPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Precio"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnCapturarImagen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Capturar Imagen" />
+
+    <ImageView
+        android:id="@+id/imgBicicleta"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="Imagen de la bicicleta" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar" />
+
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar" />
+
+</LinearLayout>
